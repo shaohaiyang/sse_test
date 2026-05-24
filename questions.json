@@ -1,0 +1,1766 @@
+[
+  {
+    "level_name": "# First 1000",
+    "level_index": 1,
+    "questions": [
+      {
+        "number": 1,
+        "word": "see",
+        "sentence": "They saw it.",
+        "options": {
+          "a": "切",
+          "b": "等待",
+          "c": "看",
+          "d": "开始"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 2,
+        "word": "time",
+        "sentence": "They have a lot of time.",
+        "options": {
+          "a": "钱",
+          "b": "食物",
+          "c": "时间",
+          "d": "朋友"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 3,
+        "word": "period",
+        "sentence": "It was a difficult period.",
+        "options": {
+          "a": "问题",
+          "b": "时期",
+          "c": "要做的事情",
+          "d": "书"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 4,
+        "word": "figure",
+        "sentence": "Is this the right figure?",
+        "options": {
+          "a": "答案",
+          "b": "地方",
+          "c": "时间",
+          "d": "号码"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 5,
+        "word": "poor",
+        "sentence": "We are poor.",
+        "options": {
+          "a": "贫穷的",
+          "b": "感到幸福的",
+          "c": "很感兴趣的",
+          "d": "不喜欢努力工作的"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 6,
+        "word": "drive",
+        "sentence": "He drives fast.",
+        "options": {
+          "a": "游泳",
+          "b": "学习",
+          "c": "扔球",
+          "d": "开车"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 7,
+        "word": "jump",
+        "sentence": "She tried to jump.",
+        "options": {
+          "a": "漂浮",
+          "b": "跳",
+          "c": "停车",
+          "d": "跑"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 8,
+        "word": "shoe",
+        "sentence": "Where is your shoe?",
+        "options": {
+          "a": "父或母",
+          "b": "钱包",
+          "c": "钢笔",
+          "d": "鞋子"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 9,
+        "word": "standard",
+        "sentence": "Her standards are very high.",
+        "options": {
+          "a": "后跟",
+          "b": "分数",
+          "c": "要价",
+          "d": "标准"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 10,
+        "word": "basis",
+        "sentence": "I don’t understand the basis.",
+        "options": {
+          "a": "原因",
+          "b": "话",
+          "c": "路标",
+          "d": "中心议"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Second 1000",
+    "level_index": 2,
+    "questions": [
+      {
+        "number": 1,
+        "word": "maintain",
+        "sentence": "Can they maintain it?",
+        "options": {
+          "a": "维持",
+          "b": "扩大",
+          "c": "改善",
+          "d": "得到"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 2,
+        "word": "stone",
+        "sentence": "He sat on a stone.",
+        "options": {
+          "a": "石头",
+          "b": "凳子",
+          "c": "垫子",
+          "d": "树枝"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 3,
+        "word": "upset",
+        "sentence": "I am upset.",
+        "options": {
+          "a": "疲倦的",
+          "b": "著名的",
+          "c": "富足的",
+          "d": "不高兴的"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 4,
+        "word": "drawer",
+        "sentence": "The drawer was empty.",
+        "options": {
+          "a": "抽屉",
+          "b": "车库",
+          "c": "冰箱",
+          "d": "鸟笼"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 5,
+        "word": "patience",
+        "sentence": "He has no patience.",
+        "options": {
+          "a": "没有耐心",
+          "b": "很忙",
+          "c": "没有信心",
+          "d": "不公正"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 6,
+        "word": "nil",
+        "sentence": "His mark for that question was nil.",
+        "options": {
+          "a": "很差的",
+          "b": "什么也没有的",
+          "c": "很好的",
+          "d": "中等的"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 7,
+        "word": "pub",
+        "sentence": "They went to the pub.",
+        "options": {
+          "a": "酒吧",
+          "b": "银行",
+          "c": "商场",
+          "d": "游泳池"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "circle",
+        "sentence": "Make a circle.",
+        "options": {
+          "a": "素描",
+          "b": "空白",
+          "c": "圆圈",
+          "d": "大洞"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 9,
+        "word": "microphone",
+        "sentence": "Please use the microphone.",
+        "options": {
+          "a": "微波炉",
+          "b": "麦克风",
+          "c": "显微镜",
+          "d": "手机"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 10,
+        "word": "pro",
+        "sentence": "He’s a pro.",
+        "options": {
+          "a": "间谍",
+          "b": "傻瓜",
+          "c": "记者",
+          "d": "职业运动员"
+        },
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "level_name": "# Third 1000",
+    "level_index": 3,
+    "questions": [
+      {
+        "number": 1,
+        "word": "soldier",
+        "sentence": "He is a soldier.",
+        "options": {
+          "a": "商人",
+          "b": "学生",
+          "c": "金属工艺制造者",
+          "d": "士兵"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 2,
+        "word": "restore",
+        "sentence": "It has been restored.",
+        "options": {
+          "a": "重复",
+          "b": "重新分配",
+          "c": "降价",
+          "d": "复原"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 3,
+        "word": "jug",
+        "sentence": "He was holding a jug.",
+        "options": {
+          "a": "罐子",
+          "b": "聊天",
+          "c": "贝雷帽",
+          "d": "枪"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 4,
+        "word": "scrub",
+        "sentence": "He is scrubbing it.",
+        "options": {
+          "a": "抓",
+          "b": "修理",
+          "c": "刷洗",
+          "d": "作素描"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 5,
+        "word": "dinosaur",
+        "sentence": "The children were pretending to be dinosaurs.",
+        "options": {
+          "a": "海盗",
+          "b": "仙女",
+          "c": "龙",
+          "d": "恐龙"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "strap",
+        "sentence": "He broke the strap.",
+        "options": {
+          "a": "诺言",
+          "b": "盖子",
+          "c": "盘子",
+          "d": "带子"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 7,
+        "word": "pave",
+        "sentence": "It was paved.",
+        "options": {
+          "a": "堵塞",
+          "b": "分开",
+          "c": "镶金边",
+          "d": "铺路"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 8,
+        "word": "dash",
+        "sentence": "They dashed over it.",
+        "options": {
+          "a": "猛冲",
+          "b": "磨蹭",
+          "c": "争吵",
+          "d": "瞥见"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 9,
+        "word": "rove",
+        "sentence": "He couldn’t stop roving.",
+        "options": {
+          "a": "喝醉",
+          "b": "漂泊",
+          "c": "哼曲子",
+          "d": "努力工作"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 10,
+        "word": "lonesome",
+        "sentence": "He felt lonesome.",
+        "options": {
+          "a": "不领情的",
+          "b": "疲倦的",
+          "c": "孤独的",
+          "d": "精力充沛的"
+        },
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "level_name": "# Fourth 1000",
+    "level_index": 4,
+    "questions": [
+      {
+        "number": 1,
+        "word": "compound",
+        "sentence": "They made a new compound.",
+        "options": {
+          "a": "协议",
+          "b": "复合物",
+          "c": "公司",
+          "d": "预言"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 2,
+        "word": "latter",
+        "sentence": "I agree with the latter.",
+        "options": {
+          "a": "牧师",
+          "b": "理由",
+          "c": "后者",
+          "d": "答案"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 3,
+        "word": "candid",
+        "sentence": "Please be candid.",
+        "options": {
+          "a": "小心的",
+          "b": "表示同情的",
+          "c": "公平的",
+          "d": "直率的"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 4,
+        "word": "tummy",
+        "sentence": "Look at my tummy.",
+        "options": {
+          "a": "围巾",
+          "b": "肚子",
+          "c": "松鼠",
+          "d": "拇指"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 5,
+        "word": "quiz",
+        "sentence": "We made a quiz.",
+        "options": {
+          "a": "箭筒",
+          "b": "错误",
+          "c": "竞赛",
+          "d": "鸟巢"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 6,
+        "word": "input",
+        "sentence": "We need more input.",
+        "options": {
+          "a": "输入",
+          "b": "工人",
+          "c": "填料",
+          "d": "钱"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 7,
+        "word": "crab",
+        "sentence": "Do you like crabs?",
+        "options": {
+          "a": "蟹",
+          "b": "薄脆饼干",
+          "c": "又紧又硬的领子",
+          "d": "蟋蟀"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "vocabulary",
+        "sentence": "You will need more vocabulary.",
+        "options": {
+          "a": "词汇",
+          "b": "技巧",
+          "c": "钱",
+          "d": "枪"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 9,
+        "word": "remedy",
+        "sentence": "We found a good remedy.",
+        "options": {
+          "a": "矫正问题的方法",
+          "b": "餐馆",
+          "c": "食谱",
+          "d": "等式"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 10,
+        "word": "allege",
+        "sentence": "They alleged it.",
+        "options": {
+          "a": "辩解",
+          "b": "剽窃",
+          "c": "证明",
+          "d": "反抗"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Fifth 1000",
+    "level_index": 5,
+    "questions": [
+      {
+        "number": 1,
+        "word": "deficit",
+        "sentence": "The company had a large deficit.",
+        "options": {
+          "a": "出现赤字",
+          "b": "贬值",
+          "c": "有这笔大开销的计划",
+          "d": "在银行里有很多存款"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 2,
+        "word": "weep",
+        "sentence": "He wept.",
+        "options": {
+          "a": "毕业",
+          "b": "哭",
+          "c": "死",
+          "d": "担心"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 3,
+        "word": "nun",
+        "sentence": "We saw a nun.",
+        "options": {
+          "a": "蠕虫",
+          "b": "事故",
+          "c": "修女",
+          "d": "天空中无法解释的亮光"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 4,
+        "word": "haunt",
+        "sentence": "The house is haunted.",
+        "options": {
+          "a": "充满了装饰物",
+          "b": "已被出租",
+          "c": "空的",
+          "d": "闹鬼"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 5,
+        "word": "compost",
+        "sentence": "We need some compost.",
+        "options": {
+          "a": "大力支持",
+          "b": "扶持",
+          "c": "混凝土",
+          "d": "堆肥"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "cube",
+        "sentence": "I need one more cube.",
+        "options": {
+          "a": "大头针",
+          "b": "立方体",
+          "c": "缸子",
+          "d": "卡片"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 7,
+        "word": "miniature",
+        "sentence": "It is a miniature.",
+        "options": {
+          "a": "微型画",
+          "b": "显微镜",
+          "c": "微生物",
+          "d": "书法中把字母连在一起的细小连线"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "peel",
+        "sentence": "Shall I peel it?",
+        "options": {
+          "a": "浸泡",
+          "b": "削皮",
+          "c": "烫洗",
+          "d": "切成薄片"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 9,
+        "word": "fracture",
+        "sentence": "They found a fracture.",
+        "options": {
+          "a": "裂口",
+          "b": "碎片",
+          "c": "夹克衫",
+          "d": "稀有的宝石"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 10,
+        "word": "bacterium",
+        "sentence": "They didn't find a single bacterium.",
+        "options": {
+          "a": "细菌",
+          "b": "开有红色或橘黄色花的植物",
+          "c": "骆驼",
+          "d": "赃物"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Sixth 1000",
+    "level_index": 6,
+    "questions": [
+      {
+        "number": 1,
+        "word": "devious",
+        "sentence": "Your plans are devious.",
+        "options": {
+          "a": "诡计多端的",
+          "b": "成熟的",
+          "c": "考虑不周详的",
+          "d": "过于昂贵的"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 2,
+        "word": "premier",
+        "sentence": "The premier spoke for an hour.",
+        "options": {
+          "a": "律师",
+          "b": "讲师",
+          "c": "冒险家",
+          "d": "总理"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 3,
+        "word": "butler",
+        "sentence": "They have a butler.",
+        "options": {
+          "a": "男管家",
+          "b": "锯",
+          "c": "家庭教师",
+          "d": "地窖"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 4,
+        "word": "accessory",
+        "sentence": "They gave us some accessories.",
+        "options": {
+          "a": "签证",
+          "b": "官方命令",
+          "c": "选择",
+          "d": "额外的零件"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 5,
+        "word": "threshold",
+        "sentence": "They raised the threshold.",
+        "options": {
+          "a": "旗子",
+          "b": "门槛",
+          "c": "天花板",
+          "d": "利息"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 6,
+        "word": "thesis",
+        "sentence": "She has completed her thesis.",
+        "options": {
+          "a": "论文",
+          "b": "归纳证词",
+          "c": "试用期",
+          "d": "延期治疗"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 7,
+        "word": "strangle",
+        "sentence": "He strangled her.",
+        "options": {
+          "a": "掐死",
+          "b": "宠坏",
+          "c": "绑架",
+          "d": "赞美"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "cavalier",
+        "sentence": "He treated her in a cavalier manner.",
+        "options": {
+          "a": "慢待的",
+          "b": "礼貌的",
+          "c": "尴尬的",
+          "d": "兄长的"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 9,
+        "word": "malign",
+        "sentence": "His malign influence is still felt.",
+        "options": {
+          "a": "邪恶的",
+          "b": "好的",
+          "c": "非常重要的",
+          "d": "秘密的"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 10,
+        "word": "veer",
+        "sentence": "The car veered.",
+        "options": {
+          "a": "改变方向或路线",
+          "b": "剧烈晃动",
+          "c": "发生逆火引起爆鸣",
+          "d": "打滑"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Seventh 1000",
+    "level_index": 7,
+    "questions": [
+      {
+        "number": 1,
+        "word": "olive",
+        "sentence": "We bought olives.",
+        "options": {
+          "a": "橄榄",
+          "b": "康乃馨",
+          "c": "男人的游泳衣",
+          "d": "清除杂草的工具"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 2,
+        "word": "quilt",
+        "sentence": "They made a quilt.",
+        "options": {
+          "a": "遗嘱",
+          "b": "合同",
+          "c": "被子",
+          "d": "羽毛笔"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 3,
+        "word": "stealth",
+        "sentence": "They did it by stealth.",
+        "options": {
+          "a": "花费大量的钱",
+          "b": "逼迫",
+          "c": "悄悄的或秘密的行动",
+          "d": "没有注意到所遇到的问题"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 4,
+        "word": "shudder",
+        "sentence": "The boy shuddered.",
+        "options": {
+          "a": "低语",
+          "b": "差点摔倒",
+          "c": "发抖",
+          "d": "大声叫喊"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 5,
+        "word": "bristle",
+        "sentence": "The bristles are too hard.",
+        "options": {
+          "a": "问题",
+          "b": "短而硬的毛发",
+          "c": "折叠床",
+          "d": "鞋底"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 6,
+        "word": "bloc",
+        "sentence": "They have joined this bloc.",
+        "options": {
+          "a": "乐队",
+          "b": "小偷帮",
+          "c": "侦察员",
+          "d": "集团"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 7,
+        "word": "demography",
+        "sentence": "This book is about demography.",
+        "options": {
+          "a": "土地使用模式研究",
+          "b": "用图片表示数字事实的研究",
+          "c": "水文学",
+          "d": "人口学"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 8,
+        "word": "gimmick",
+        "sentence": "That's a good gimmick.",
+        "options": {
+          "a": "高空作业时所站的东西",
+          "b": "钱包",
+          "c": "引人注意的行为或事物",
+          "d": "花招"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 9,
+        "word": "azalea",
+        "sentence": "This azalea is very pretty.",
+        "options": {
+          "a": "杜鹃花",
+          "b": "由天然棉所制成的很轻的材料",
+          "c": "莎丽",
+          "d": "扇贝"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 10,
+        "word": "yoghurt",
+        "sentence": "This yoghurt is disgusting.",
+        "options": {
+          "a": "淤泥",
+          "b": "伤口",
+          "c": "酸奶",
+          "d": "榅桲"
+        },
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "level_name": "# Eighth 1000",
+    "level_index": 8,
+    "questions": [
+      {
+        "number": 1,
+        "word": "erratic",
+        "sentence": "He was erratic.",
+        "options": {
+          "a": "完美的",
+          "b": "很坏的",
+          "c": "很有礼貌的",
+          "d": "不可靠的"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 2,
+        "word": "palette",
+        "sentence": "He lost his palette.",
+        "options": {
+          "a": "装鱼的篮子",
+          "b": "胃口",
+          "c": "年轻的女伴",
+          "d": "调色板"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 3,
+        "word": "null",
+        "sentence": "His influence was null.",
+        "options": {
+          "a": "具有好的结果",
+          "b": "毫无帮助的",
+          "c": "没有效果的",
+          "d": "持久的"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 4,
+        "word": "kindergarten",
+        "sentence": "This is a good kindergarten.",
+        "options": {
+          "a": "消遣",
+          "b": "幼儿园",
+          "c": "背包",
+          "d": "图书馆"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 5,
+        "word": "eclipse",
+        "sentence": "There was an eclipse.",
+        "options": {
+          "a": "飓风",
+          "b": "泼溅",
+          "c": "大屠杀",
+          "d": "日食"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "marrow",
+        "sentence": "This is the marrow.",
+        "options": {
+          "a": "吉祥物",
+          "b": "骨髓",
+          "c": "操纵杆",
+          "d": "增加工资"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 7,
+        "word": "locust",
+        "sentence": "There were hundreds of locusts.",
+        "options": {
+          "a": "飞蝗",
+          "b": "志愿者",
+          "c": "素食者",
+          "d": "颜色鲜艳的野花"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "authentic",
+        "sentence": "It is authentic.",
+        "options": {
+          "a": "真的",
+          "b": "非常吵闹的",
+          "c": "老的",
+          "d": "干旱的"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 9,
+        "word": "cabaret",
+        "sentence": "We saw the cabaret.",
+        "options": {
+          "a": "壁画",
+          "b": "卡巴莱",
+          "c": "蟑螂",
+          "d": "美人鱼"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 10,
+        "word": "mumble",
+        "sentence": "He started to mumble.",
+        "options": {
+          "a": "集中精力",
+          "b": "颤抖",
+          "c": "远远地落后于其他人",
+          "d": "咕哝"
+        },
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "level_name": "# Ninth 1000",
+    "level_index": 9,
+    "questions": [
+      {
+        "number": 1,
+        "word": "hallmark",
+        "sentence": "Does it have a hallmark?",
+        "options": {
+          "a": "表明什么时候之前应该被使用的印记",
+          "b": "纯度印记",
+          "c": "表明经过皇室同意的标记",
+          "d": "禁止复制的标记"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 2,
+        "word": "puritan",
+        "sentence": "He is a puritan.",
+        "options": {
+          "a": "喜欢被人注意的人",
+          "b": "具有严格道德标准的人",
+          "c": "吉普赛人",
+          "d": "守财奴"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 3,
+        "word": "monologue",
+        "sentence": "Now he has a monologue.",
+        "options": {
+          "a": "单眼镜",
+          "b": "独白",
+          "c": "专制",
+          "d": "把字母有趣地连在一起的图画"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 4,
+        "word": "weir",
+        "sentence": "We looked at the weir.",
+        "options": {
+          "a": "行为古怪的人",
+          "b": "红树属植物",
+          "c": "通过吹来演奏的古老金属乐器",
+          "d": "拦河坝"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 5,
+        "word": "whim",
+        "sentence": "He had lots of whims.",
+        "options": {
+          "a": "古老的金币",
+          "b": "母马",
+          "c": "没有任何动机的奇异想法",
+          "d": "疼痛的红肿块"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 6,
+        "word": "perturb",
+        "sentence": "I was perturbed.",
+        "options": {
+          "a": "被迫同意的",
+          "b": "烦恼的",
+          "c": "困惑的",
+          "d": "湿透的"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 7,
+        "word": "regent",
+        "sentence": "They chose a regent.",
+        "options": {
+          "a": "不负责任的人",
+          "b": "暂时主持会议的人",
+          "c": "摄政者",
+          "d": "代表"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 8,
+        "word": "octopus",
+        "sentence": "They saw an octopus.",
+        "options": {
+          "a": "猫头鹰",
+          "b": "潜水艇",
+          "c": "直升飞机",
+          "d": "章鱼"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 9,
+        "word": "fen",
+        "sentence": "The story is set in the fens.",
+        "options": {
+          "a": "沼泽",
+          "b": "山地",
+          "c": "贫民窟",
+          "d": "很久以前"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 10,
+        "word": "lintel",
+        "sentence": "He painted the lintel.",
+        "options": {
+          "a": "过梁",
+          "b": "渡船",
+          "c": "长有伸展树枝和绿色果实的美丽的树",
+          "d": "戏院中显示场景的板子"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Tenth 1000",
+    "level_index": 10,
+    "questions": [
+      {
+        "number": 1,
+        "word": "awe",
+        "sentence": "They looked at the mountain with awe.",
+        "options": {
+          "a": "担心",
+          "b": "兴趣",
+          "c": "惊奇",
+          "d": "尊重"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 2,
+        "word": "peasantry",
+        "sentence": "He did a lot for the peasantry.",
+        "options": {
+          "a": "当地人",
+          "b": "寺庙",
+          "c": "商人俱乐部",
+          "d": "农民"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 3,
+        "word": "egalitarian",
+        "sentence": "This organization is very egalitarian.",
+        "options": {
+          "a": "保密的",
+          "b": "保守的",
+          "c": "诉讼的",
+          "d": "平等主义的"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 4,
+        "word": "mystique",
+        "sentence": "He has lost his mystique.",
+        "options": {
+          "a": "体格",
+          "b": "神秘性",
+          "c": "情人",
+          "d": "胡子"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 5,
+        "word": "upbeat",
+        "sentence": "I'm feeling really upbeat about it.",
+        "options": {
+          "a": "苦恼的",
+          "b": "乐观的",
+          "c": "受伤害的",
+          "d": "迷惑的"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 6,
+        "word": "cranny",
+        "sentence": "We found it in the cranny!",
+        "options": {
+          "a": "旧杂物义卖",
+          "b": "小洞",
+          "c": "阁楼",
+          "d": "大箱子"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 7,
+        "word": "pigtail",
+        "sentence": "Does she have a pigtail?",
+        "options": {
+          "a": "辫子",
+          "b": "长的衣、袍、裙等拖在地上的部分",
+          "c": "开有一串下垂浅粉色花的植物",
+          "d": "情人"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "crowbar",
+        "sentence": "He used a crowbar.",
+        "options": {
+          "a": "撬棍",
+          "b": "化名",
+          "c": "锥子",
+          "d": "轻的金属拐杖"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 9,
+        "word": "ruck",
+        "sentence": "He got hurt in the ruck.",
+        "options": {
+          "a": "骨盆",
+          "b": "打架",
+          "c": "(运动员或竞赛者等的)散乱一群",
+          "d": "在雪地上奔跑"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 10,
+        "word": "lectern",
+        "sentence": "He stood at the lectern.",
+        "options": {
+          "a": "讲台",
+          "b": "圣餐桌",
+          "c": "酒吧",
+          "d": "边缘"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Eleventh 1000",
+    "level_index": 11,
+    "questions": [
+      {
+        "number": 1,
+        "word": "excrete",
+        "sentence": "This was excreted recently.",
+        "options": {
+          "a": "排泄",
+          "b": "澄清",
+          "c": "调查",
+          "d": "被列入不合法的事情之中"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 2,
+        "word": "mussel",
+        "sentence": "They bought mussels.",
+        "options": {
+          "a": "玻璃弹球",
+          "b": "贻贝",
+          "c": "楹悖",
+          "d": "纸巾"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 3,
+        "word": "yoga",
+        "sentence": "She has started yoga.",
+        "options": {
+          "a": "粗绳结的饰物",
+          "b": "瑜伽",
+          "c": "羽毛球",
+          "d": "东方国家的一种舞蹈"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 4,
+        "word": "counterclaim",
+        "sentence": "They made a counterclaim.",
+        "options": {
+          "a": "在法律案件中一方所提出的诉求和另一方的诉求相同",
+          "b": "要求商店收回有瑕疵的东西",
+          "c": "两个公司之间交换工作的合同",
+          "d": "被子"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 5,
+        "word": "puma",
+        "sentence": "They saw a puma.",
+        "options": {
+          "a": "由坏建成的小房子",
+          "b": "来自炎热而干旱国家的树",
+          "c": "飓风",
+          "d": "美洲狮"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "pallor",
+        "sentence": "His pallor caused them concern.",
+        "options": {
+          "a": "非正常的高温",
+          "b": "对一切都毫无兴趣",
+          "c": "一帮朋友",
+          "d": "苍白的皮肤"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 7,
+        "word": "aperitif",
+        "sentence": "She had an aperitif.",
+        "options": {
+          "a": "躺椅",
+          "b": "家庭教师",
+          "c": "带有很高羽毛的大帽子",
+          "d": "开胃酒"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 8,
+        "word": "hutch",
+        "sentence": "Please clean the hutch.",
+        "options": {
+          "a": "隔板",
+          "b": "行李箱",
+          "c": "轮毂",
+          "d": "兔笼"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 9,
+        "word": "emir",
+        "sentence": "We saw the emir.",
+        "options": {
+          "a": "尾巴上长有两个长长卷曲羽毛的鸟",
+          "b": "奶妈",
+          "c": "埃米尔(对穆斯林统治者的尊称)",
+          "d": "(爱斯基摩人用坚硬雪块砌成的临时栖身用的)拱形圆顶小屋"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 10,
+        "word": "hessian",
+        "sentence": "She bought some hessian.",
+        "options": {
+          "a": "光泽油亮略呈粉红色的鱼",
+          "b": "大麻",
+          "c": "一种结实的粗麻布",
+          "d": "用来给食物调味的味道浓烈的根状物"
+        },
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "level_name": "# Twelfth 1000",
+    "level_index": 12,
+    "questions": [
+      {
+        "number": 1,
+        "word": "haze",
+        "sentence": "We looked through the haze.",
+        "options": {
+          "a": "舷窗",
+          "b": "薄雾",
+          "c": "窗帘",
+          "d": "花名册"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 2,
+        "word": "spleen",
+        "sentence": "His spleen was damaged.",
+        "options": {
+          "a": "膝盖骨",
+          "b": "脾脏",
+          "c": "下水管",
+          "d": "自尊"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 3,
+        "word": "soliloquy",
+        "sentence": "That was an excellent soliloquy!",
+        "options": {
+          "a": "六个人唱的歌曲",
+          "b": "修饰词或描述性词语",
+          "c": "带有灯光和音乐的娱乐",
+          "d": "独白"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 4,
+        "word": "reptile",
+        "sentence": "She looked at the reptile.",
+        "options": {
+          "a": "手稿",
+          "b": "爬行动物",
+          "c": "挨家兜售货物的人",
+          "d": "水粉画"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 5,
+        "word": "alum",
+        "sentence": "This contains alum.",
+        "options": {
+          "a": "取自一种普通植物的有毒物质",
+          "b": "一种由人造棉所制成的柔软材料",
+          "c": "鼻烟",
+          "d": "白矾"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "refectory",
+        "sentence": "We met in the refectory.",
+        "options": {
+          "a": "食堂",
+          "b": "签署法律文件的办公室",
+          "c": "宿舍",
+          "d": "温室"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 7,
+        "word": "caffeine",
+        "sentence": "This contains a lot of caffeine.",
+        "options": {
+          "a": "一种让人瞌睡的物质",
+          "b": "由坚韧树叶织成的线状物",
+          "c": "错误的观点",
+          "d": "咖啡因"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 8,
+        "word": "impale",
+        "sentence": "He nearly got impaled.",
+        "options": {
+          "a": "控告",
+          "b": "监禁",
+          "c": "被尖物刺中",
+          "d": "陷入争论之中"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 9,
+        "word": "coven",
+        "sentence": "She is the leader of a coven.",
+        "options": {
+          "a": "合唱队",
+          "b": "集体企业",
+          "c": "秘密组织",
+          "d": "一群生活在教堂里过着严格宗教生活的女人"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 10,
+        "word": "trill",
+        "sentence": "He practised the trill.",
+        "options": {
+          "a": "颤音",
+          "b": "小提琴",
+          "c": "投球",
+          "d": "(芭蕾舞者的)单足旋转"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Thirteenth 1000",
+    "level_index": 13,
+    "questions": [
+      {
+        "number": 1,
+        "word": "ubiquitous",
+        "sentence": "Many weeds are ubiquitous.",
+        "options": {
+          "a": "很难铲除的",
+          "b": "长有又长又壮根的",
+          "c": "在大部分国家都能够被发现的",
+          "d": "在冬天枯竭的"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 2,
+        "word": "talon",
+        "sentence": "Just look at those talons!",
+        "options": {
+          "a": "山顶",
+          "b": "爪",
+          "c": "盔甲",
+          "d": "傻瓜"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 3,
+        "word": "rouble",
+        "sentence": "He had a lot of roubles.",
+        "options": {
+          "a": "红宝石",
+          "b": "亲戚",
+          "c": "卢布",
+          "d": "心中的道德或者其他难题"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 4,
+        "word": "jovial",
+        "sentence": "He was very jovial.",
+        "options": {
+          "a": "社会地位低下的",
+          "b": "总爱批评人的",
+          "c": "很幽默的",
+          "d": "很友好的"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 5,
+        "word": "communiqué",
+        "sentence": "I saw their communiqué.",
+        "options": {
+          "a": "对一个机构的批评报告",
+          "b": "属于社区成员的花园",
+          "c": "用于做广告的印刷材料",
+          "d": "官方通告"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "plankton",
+        "sentence": "We saw a lot of plankton.",
+        "options": {
+          "a": "毒性传播很快的杂草",
+          "b": "生活在水中的很小的植物或动物",
+          "c": "坚硬木质的树木",
+          "d": "容易导致土地滑坡的灰色泥土"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 7,
+        "word": "skylark",
+        "sentence": "We watched a skylark.",
+        "options": {
+          "a": "飞行表演",
+          "b": "人造卫星",
+          "c": "表演魔术的人",
+          "d": "一边鸣叫一边飞得很高的小鸟"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 8,
+        "word": "beagle",
+        "sentence": "He owns two beagles.",
+        "options": {
+          "a": "车顶能够收起来的跑得很快的车",
+          "b": "能够快速射中很多人的枪",
+          "c": "长有长长耳朵的小狗",
+          "d": "建在度假胜地的房子"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 9,
+        "word": "atoll",
+        "sentence": "The atoll was beautiful.",
+        "options": {
+          "a": "环状珊瑚岛",
+          "b": "用细线织成图画的艺术品",
+          "c": "女人晚上所佩带的镶嵌有宝石的小皇冠",
+          "d": "河水流过大石间的缝隙"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 10,
+        "word": "didactic",
+        "sentence": "The story is very didactic.",
+        "options": {
+          "a": "说教的",
+          "b": "难以置信的",
+          "c": "令人兴奋的",
+          "d": "令读者琢磨不透的"
+        },
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "level_name": "# Fourteenth 1000",
+    "level_index": 14,
+    "questions": [
+      {
+        "number": 1,
+        "word": "canonical",
+        "sentence": "These are canonical examples.",
+        "options": {
+          "a": "打破常规的",
+          "b": "取自一本宗教书的",
+          "c": "合乎原则并被广泛接受的",
+          "d": "最近发现的"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 2,
+        "word": "atop",
+        "sentence": "He was atop the hill.",
+        "options": {
+          "a": "在...脚下",
+          "b": "在...顶部",
+          "c": "在这边",
+          "d": "在那边"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 3,
+        "word": "marsupial",
+        "sentence": "It is a marsupial.",
+        "options": {
+          "a": "长有坚硬脚的动物",
+          "b": "生长几年的一种植物",
+          "c": "开出的花总是面向太阳的植物",
+          "d": "有袋类动物"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 4,
+        "word": "augur",
+        "sentence": "It augured well.",
+        "options": {
+          "a": "预示未来的好事情",
+          "b": "和预料的很吻合",
+          "c": "具有一种和其他东西搭配在一起很漂亮的色彩",
+          "d": "发出一种清脆而动听的声音"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 5,
+        "word": "bawdy",
+        "sentence": "It was very bawdy.",
+        "options": {
+          "a": "难以预料的",
+          "b": "令人愉快的",
+          "c": "急促的",
+          "d": "粗鲁的"
+        },
+        "correct": "d"
+      },
+      {
+        "number": 6,
+        "word": "gauche",
+        "sentence": "He was gauche.",
+        "options": {
+          "a": "善谈的",
+          "b": "灵活的",
+          "c": "尴尬的",
+          "d": "坚决的"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 7,
+        "word": "thesaurus",
+        "sentence": "She used a thesaurus.",
+        "options": {
+          "a": "一种字典",
+          "b": "一种化合物",
+          "c": "一种特殊的说话方式",
+          "d": "皮下注射"
+        },
+        "correct": "a"
+      },
+      {
+        "number": 8,
+        "word": "erythrocyte",
+        "sentence": "It is an erythrocyte.",
+        "options": {
+          "a": "止痛的药",
+          "b": "血液中的红色的成分",
+          "c": "略显红色的白金属",
+          "d": "鲸家族中的一员"
+        },
+        "correct": "b"
+      },
+      {
+        "number": 9,
+        "word": "cordillera",
+        "sentence": "They were stopped by the cordillera.",
+        "options": {
+          "a": "特殊的法律",
+          "b": "装备有武器的船只",
+          "c": "山脉",
+          "d": "国王的长子"
+        },
+        "correct": "c"
+      },
+      {
+        "number": 10,
+        "word": "limpid",
+        "sentence": "He looked into her limpid eyes.",
+        "options": {
+          "a": "清澈的",
+          "b": "含泪的",
+          "c": "深棕色的",
+          "d": "美丽的"
+        },
+        "correct": "a"
+      }
+    ]
+  }
+]

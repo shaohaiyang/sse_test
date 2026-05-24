@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <span>管理员: {{ session.admin_username }}</span>
+            <div>
+                <a href="{{ url_for('admin_add_student') }}" class="btn btn-small btn-primary">添加学生</a>
+                <a href="{{ url_for('admin_logout') }}" class="btn btn-small">退出</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>学生管理</h2>
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <div class="flash-messages">
+                {% for msg in messages %}
+                <div class="flash">{{ msg }}</div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% endwith %}
+
+            {% if not students %}
+            <p class="empty">暂无学生</p>
+            {% else %}
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>角色/班级</th>
+                        <th>已完成组数</th>
+                        <th>总答对数</th>
+                        <th>词汇量估算</th>
+                        <th>加入时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sd in students %}
+                    <tr>
+                        <td>{{ sd.student.name }}</td>
+                        <td>{{ sd.student.role or '-' }}</td>
+                        <td>{{ sd.completed }} / {{ total_levels }}</td>
+                        <td>{{ sd.total_correct }}</td>
+                        <td>{{ sd.vocab_estimate }}</td>
+                        <td>{{ sd.student.created_at.strftime('%m-%d %H:%M') }}</td>
+                        <td class="actions">
+                            <a href="{{ url_for('admin_student_detail', student_id=sd.student.id) }}" class="btn btn-small">详情</a>
+                            <a href="{{ url_for('admin_edit_student', student_id=sd.student.id) }}" class="btn btn-small">编辑</a>
+                            <form method="POST" action="{{ url_for('admin_delete_student', student_id=sd.student.id) }}" style="display:inline;">
+                                <button type="submit" class="btn btn-small btn-danger" onclick="return confirm('确定删除？')">删除</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

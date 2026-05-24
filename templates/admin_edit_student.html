@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编辑学生 - {{ student.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card" style="max-width: 480px;">
+            <h1>编辑学生</h1>
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <div class="flash-messages">
+                {% for msg in messages %}
+                <div class="flash">{{ msg }}</div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% endwith %}
+            <form method="POST" class="form">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name" value="{{ student.name }}" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">角色/班级</label>
+                    <input type="text" id="role" name="role" value="{{ student.role }}">
+                </div>
+                <div class="form-group">
+                    <label for="current_level">当前进度 (组别 1-{{ total_levels + 1 }})</label>
+                    <input type="number" id="current_level" name="current_level"
+                           value="{{ student.current_level }}" min="1" max="{{ total_levels + 1 }}">
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">保存</button>
+                    <a href="{{ url_for('admin_student_detail', student_id=student.id) }}" class="btn">取消</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

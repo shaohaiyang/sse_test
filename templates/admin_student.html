@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ student.name }} 的详情</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <span>管理员: {{ session.admin_username }}</span>
+            <div>
+                <a href="{{ url_for('admin_dashboard') }}" class="btn btn-small">返回列表</a>
+                <a href="{{ url_for('admin_logout') }}" class="btn btn-small">退出</a>
+            </div>
+        </div>
+
+        <div class="card summary-card">
+            <h2>{{ student.name }}</h2>
+            <p>角色: {{ student.role or '-' }} | 当前进度: 第 {{ student.current_level }} 组</p>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <span class="summary-number">{{ results|length }}</span>
+                    <span class="summary-label">已完成组数</span>
+                </div>
+                <div class="summary-item highlight">
+                    <span class="summary-number">{{ vocab_estimate }}</span>
+                    <span class="summary-label">词汇量估算</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">{{ total_correct }}</span>
+                    <span class="summary-label">总答对数</span>
+                </div>
+            </div>
+            <div class="actions" style="margin-top: 16px;">
+                <a href="{{ url_for('admin_edit_student', student_id=student.id) }}" class="btn">编辑</a>
+                <form method="POST" action="{{ url_for('admin_reset_student', student_id=student.id) }}" style="display:inline;">
+                    <button type="submit" class="btn" onclick="return confirm('将清除该学生的所有测试记录，确定？')">重置</button>
+                </form>
+                <form method="POST" action="{{ url_for('admin_delete_student', student_id=student.id) }}" style="display:inline;">
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('确定删除？')">删除</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>各组成绩</h3>
+            {% if not results %}
+            <p class="empty">暂无测试记录</p>
+            {% else %}
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>组别</th>
+                        <th>分数</th>
+                        <th>完成时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in results %}
+                    <tr>
+                        <td>{{ level_names.get(r.level, 'Level ' + r.level|string) }}</td>
+                        <td>{{ r.score }} / {{ r.total }}</td>
+                        <td>{{ r.completed_at.strftime('%m-%d %H:%M') }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+
+        <div class="card">
+            <h3>错题 ({{ wrong_records|length }} 题)</h3>
+            {% if not wrong_records %}
+            <p class="empty">全部正确</p>
+            {% else %}
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>组别</th>
+                        <th>单词</th>
+                        <th>学生答案</th>
+                        <th>正确答案</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in wrong_records %}
+                    <tr>
+                        <td>{{ level_names.get(r.level, 'Level ' + r.level|string) }}</td>
+                        <td>{{ r.word }}</td>
+                        <td class="wrong-selected">{{ r.selected if r.selected else '未选' }}{% if r.selected and r.selected in option_map.get((r.level, r.q_number), {}) %} ({{ option_map[(r.level, r.q_number)][r.selected] }}){% endif %}</td>
+                        <td class="wrong-correct">{{ r.correct }}{% if r.correct and r.correct in option_map.get((r.level, r.q_number), {}) %} ({{ option_map[(r.level, r.q_number)][r.correct] }}){% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

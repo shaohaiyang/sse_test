@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>错题本 - {{ student.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <span>学生: {{ student.name }}</span>
+            <div>
+                <a href="{{ url_for('result') }}" class="btn btn-small">查看结果</a>
+                <a href="{{ url_for('logout') }}" class="btn btn-small">退出</a>
+            </div>
+        </div>
+
+        <div class="stage-bar">
+            {% for i in range(1, total_levels + 1) %}
+            <a href="{{ url_for('test', level=i) }}" class="stage-btn {% if i in completed_set %}stage-done{% else %}stage-pending{% endif %}">
+                {{ i }}
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="card">
+            <h2>错题本</h2>
+            {% if not wrong_by_level %}
+            <p class="empty">全部正确，没有错题！</p>
+            {% else %}
+                {% for level_num in wrong_by_level|sort %}
+                <div class="wrong-level">
+                    <h3>{{ level_names.get(level_num, 'Level ' + level_num|string) }}</h3>
+                    {% for r in wrong_by_level[level_num] %}
+                    <div class="wrong-item">
+                        <div class="wrong-word">{{ r.word }}</div>
+                        <div class="wrong-answers">
+                            <span class="wrong-label">你的答案:</span>
+                            <span class="wrong-selected">{{ r.selected if r.selected else '未选择' }}{% if r.selected and r.selected in option_map.get((r.level, r.q_number), {}) %} ({{ option_map[(r.level, r.q_number)][r.selected] }}){% endif %}</span>
+                        </div>
+                        <div class="wrong-answers">
+                            <span class="wrong-label">正确答案:</span>
+                            <span class="wrong-correct">{{ r.correct }}{% if r.correct and r.correct in option_map.get((r.level, r.q_number), {}) %} ({{ option_map[(r.level, r.q_number)][r.correct] }}){% endif %}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

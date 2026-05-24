@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试结果 - {{ student.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <span>学生: {{ student.name }}</span>
+            <div>
+                <a href="{{ url_for('wrong') }}" class="btn btn-small">错题本</a>
+                <a href="{{ url_for('logout') }}" class="btn btn-small">退出</a>
+            </div>
+        </div>
+
+        <div class="stage-bar">
+            {% for i in range(1, total_levels + 1) %}
+            <a href="{{ url_for('test', level=i) }}" class="stage-btn {% if i in completed_set %}stage-done{% else %}stage-pending{% endif %}">
+                {{ i }}
+            </a>
+            {% endfor %}
+        </div>
+
+        {% if last_level is not none %}
+        <div class="alert alert-score">
+            第 {{ last_level }} 组答对 <strong>{{ last_score }}</strong> / 10 题
+        </div>
+        {% endif %}
+
+        <div class="card summary-card">
+            <h2>{{ student.name }} 的测试报告</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <span class="summary-number">{{ completed_levels }}</span>
+                    <span class="summary-label">已完成组数</span>
+                </div>
+                <div class="summary-item highlight">
+                    <span class="summary-number">{{ vocab_estimate }}</span>
+                    <span class="summary-label">词汇量估算 (词族)</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">{{ total_correct }}</span>
+                    <span class="summary-label">总答对题数</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">{{ wrong_count }}</span>
+                    <span class="summary-label">错题数</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>各组详情</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>组别</th>
+                        <th>分数</th>
+                        <th>状态</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in results %}
+                    <tr>
+                        <td>{{ level_names.get(r.level, 'Level ' + r.level|string) }}</td>
+                        <td>{{ r.score }} / {{ r.total }}</td>
+                        <td>
+                            {% if r.score >= 6 %}
+                            <span class="badge badge-good">良好</span>
+                            {% elif r.score >= 4 %}
+                            <span class="badge badge-ok">一般</span>
+                            {% else %}
+                            <span class="badge badge-low">需加强</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        {% if student.current_level <= total_levels %}
+        <div class="center">
+            <a href="{{ url_for('test') }}" class="btn btn-primary btn-large">继续下一组</a>
+        </div>
+        {% else %}
+        <div class="card">
+            <h3>全部测试完成！</h3>
+            <p>你已经完成了全部 {{ total_levels }} 组测试，词汇量估算约为 {{ vocab_estimate }} 个词族。</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
